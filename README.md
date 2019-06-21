@@ -8,8 +8,8 @@ Technologies are using:
 Node.js, Express.js, MongoDB, JSON Web Tokens, bcrypt.js
  
 <p align='center'>
-<img src='https://github.com/tianchez/tree-calculation-service/blob/master/doc/signin.png' width='400' alt='signin-screenshot'>
 <img src='https://github.com/tianchez/tree-calculation-service/blob/master/doc/tree.png' width='400' alt='tree-screenshot'>
+<img src='https://github.com/tianchez/tree-calculation-service/blob/master/doc/signin.png' width='400' alt='signin-screenshot'>
 </p>
 
 ## Prerequisites
