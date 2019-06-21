@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Web service to calculate tree",
   "author": "Frank Zhang <tianchen.frank@gmail.com>",
+  "license": "MIT",
   "main": "server.js",
   "scripts": {
     "start": "node main.js",
