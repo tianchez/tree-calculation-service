@@ -4,6 +4,9 @@ This repo is the backend source code for *tree-calculation-ui*, https://github.c
 ## Intorduction
 With this Tree calculation app, users can calulate the sum of longest path in the tree. This app is implemented in MERN stack(MongoDB, Express.js, ReactJS, and Node.js) andd composes of UI andd Service parts. UI is written in React.js and Service are supported by Node.js and MongoDB. This repo contains the source code for Service part.
 
+Technologies are using:
+Node.js, Express.js, MongoDB, JSON Web Tokens, bcrypt.js
+ 
 <p align='center'>
 <img src='https://github.com/tianchez/tree-calculation-service/blob/master/doc/signin.png' width='400' alt='signin-screenshot'>
 <img src='https://github.com/tianchez/tree-calculation-service/blob/master/doc/tree.png' width='400' alt='tree-screenshot'>
