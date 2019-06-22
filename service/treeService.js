@@ -22,8 +22,6 @@ let calculateTreeSum = (req, res)=>{
         message: 'Tree data is processed',
         sum: ans.dist
       });
-
-    console.log(ans);
 }
 
 let getTreeSum_dfs = (node, level)=>{
