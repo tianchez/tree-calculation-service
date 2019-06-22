@@ -28,7 +28,7 @@ let calculateTreeSum = (req, res)=>{
 
 let getTreeSum_dfs = (node, level)=>{
     // Base case 1: node has no value
-    if (!node.val) return {level: level-1, dist: 0};
+    if (node.val === undefined || node.val === null) return {level: level-1, dist: 0};
     // Base case 2: node has no children
     else if (!node.children || node.children.length ===0) return {level: level, dist: parseInt(node.val)};
 
@@ -36,8 +36,9 @@ let getTreeSum_dfs = (node, level)=>{
     let max_level = 0, max_dist = 0;
     node.children.forEach(child=>{
         let ans = getTreeSum_dfs(child, level+1);
-        if (ans.level >= max_level){
-            max_dist = Math.max(max_dist, ans.dist);
+        if (ans.level === max_level) max_dist = Math.max(max_dist, ans.dist);
+        else if (ans.level > max_level){
+            max_dist = ans.dist;
             max_level = ans.level;
         }
     });
